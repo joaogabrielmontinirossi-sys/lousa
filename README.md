@@ -1,5 +1,7 @@
 # Lousa
 
+[![Captura de tela do Lousa](docs/captura.png)](https://joaogabrielmontinirossi-sys.github.io/lousa/)
+
 A tela da sala de aula. Um quadro para projetar na aula com 78 widgets que se arrastam, redimensionam e ficam salvos: temporizador, sorteador de nomes, formador de grupos, nível de ruído, semáforo, enquetes, placar, jogos, ferramentas de matemática e de linguagem e muito mais. Funciona no navegador, no celular e no Windows, com sincronização entre computadores pelo Google Drive.
 
 Tudo roda no próprio aparelho: nenhum dado de aluno é enviado para servidores.
@@ -96,3 +98,7 @@ Gera `dist\Lousa.exe` e `dist\lousa.html` (versão em arquivo único, que abre e
 | `app/app.js` | Barra, galeria, telas, turmas, fundo, anotação, backup e sincronização |
 | `desktop/Lousa.cs` | Programa de Windows: serve o app em `localhost` e grava a pasta de sincronização |
 | `build.ps1` | Gera os ícones, compila o `.exe` e monta o arquivo único |
+
+## Licença
+
+[MIT](LICENSE): pode usar, copiar, modificar e distribuir livremente, mantendo o aviso de autoria.
