@@ -1,6 +1,6 @@
 /* Lousa — service worker da versão web: guarda o app para abrir sem internet. */
-const VERSION = 'lousa-1.0.0-g1';
-const FILES = ['./', 'index.html', 'gsync.js', 'app.css', 'store.js', 'core.js', 'w-base.js', 'w-extra1.js', 'w-extra2.js', 'app.js', 'logo.svg', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png'];
+const VERSION = 'lousa-1.0.0-g1-e1';
+const FILES = ['./', 'index.html', 'elo.js', 'gsync.js', 'app.css', 'store.js', 'core.js', 'w-base.js', 'w-extra1.js', 'w-extra2.js', 'app.js', 'logo.svg', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
