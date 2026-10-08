@@ -39,6 +39,7 @@ const GSync = window.GSyncLib || { web: false, on: () => false, io: null, html: 
   }
   const chromeSoon = debounce(renderChrome, 300);
 
+  window.EloOpen = id => openScreen(id);
   function openScreen(id) {
     Dirty.flush();
     S.set.cur = id; Store.saveSet();
